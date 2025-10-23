@@ -1,44 +1,38 @@
 ---
 title : "Worklog tuần 1"
-date : "2025-10-22"
+date : "2025-09-12"
 weight : 1
 chapter : false
 pre : " <b> 1.1. </b> "
 ---
 ## Mục tiêu tuần 1:
 - Tìm hiểu về nội quy, quy định và các thông tin cũng như đội ngũ các anh/chị mentor tại FCJ.
-- Understand basic AWS services, how to use the console & CLI.
+- Tìm hiểu các thông tin tổng quan về nhà cung cấp dịch vụ AWS.
+- Tìm hiểu cách tạo tài khoản, quản lý dịch vụ, hỗ trợ, các gói đăng kí, ...
 
 ## Các công việc cần triển khai trong tuần này:
 
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 |-----|------|------------|-----------------|---------------------|
-| 2   | - Get acquainted with FCJ members<br>- Read and take note of internship unit rules and regulations | 08/09/2025 | 08/11/2025 | |
-| 3   | - Learn about AWS and its types of services<br>&nbsp;&nbsp;+ Compute<br>&nbsp;&nbsp;+ Storage<br>&nbsp;&nbsp;+ Networking<br>&nbsp;&nbsp;+ Database<br>&nbsp;&nbsp;+ … | 08/12/2025 | 08/12/2025 | https://cloudjourney.awsstudygroup.com/ |
-| 4   | - Create AWS Free Tier account<br>- Learn about AWS Console & AWS CLI<br>- Practice:<br>&nbsp;&nbsp;+ Create AWS account<br>&nbsp;&nbsp;+ Install & configure AWS CLI<br>&nbsp;&nbsp;+ How to use AWS CLI | 08/13/2025 | 08/13/2025 | https://cloudjourney.awsstudygroup.com/ |
-| 5   | - Learn basic EC2:<br>&nbsp;&nbsp;+ Instance types<br>&nbsp;&nbsp;+ AMI<br>&nbsp;&nbsp;+ EBS<br>&nbsp;&nbsp;+ …<br>- SSH connection methods to EC2<br>- Learn about Elastic IP | 08/14/2025 | 08/15/2025 | https://cloudjourney.awsstudygroup.com/ |
-| 6   | - Practice:<br>&nbsp;&nbsp;+ Launch an EC2 instance<br>&nbsp;&nbsp;+ Connect via SSH<br>&nbsp;&nbsp;+ Attach an EBS volume | 08/15/2025 | 08/15/2025 | https://cloudjourney.awsstudygroup.com/ |
+| 2   | - Tìm hiểu về nội quy và quy định tại FCJ<br>- Tìm hiểu về lịch sử và quá trình hình thành của AWS.<br>- Tìm hiểu về hạ tầng toàn cầu của AWS. | 08/09/2025 | 08/09/2025 | [Tài liệu tham khảo](https://youtu.be/pjr5a-HYAjI?si=WXvZYuLoH0JCbAnq)<br>[Nội quy - Hướng dẫn](https://policies.fcjuni.com/) |
+| 3   | - Tìm hiểu các phương pháp tối ưu chi phí khi sử dụng dịch vụ AWS.<br> - Tìm hiểu công cụ quản lý dịch vụ của AWS.<br> - Tìm hiểu cách làm việc với dịch vụ hỗ trợ của AWS.| 09/09/2025 | 09/09/2025 | [AWS Service Management](https://youtu.be/2PQYqH_HkXw?si=CuoEvhmPib5GmGum)<br>[Cost Optimization](https://youtu.be/IY61YlmXQe8?si=CuYPxe_xXqXC2SFo)<br>[AWS Support](https://youtu.be/IY61YlmXQe8?si=CuYPxe_xXqXC2SFo) |
+| 4   | - Tạo tài khoản AWS Free Tier.<br>- Thiết lập bảo mật 2 lớp cho tài khoản.<br>- Tìm hiểu các loại budget của AWS và cách tạo các budget template. | 10/09/2025 | 10/09/2025 | [Lab 01](https://000007.awsstudygroup.com/vi/)<br>[Lab 07](https://000007.awsstudygroup.com/vi/)|
+| 5   | - Tìm hiểu các gói đăng kí của AWS và các đăng kí các gói này.<br> - Tìm hiểu cách yêu cầu hỗ trợ bảo mật tài khoản từ AWS.<br> - Tạo và phân nhóm user.<br> - Dọn dẹp các budgets đã tạo ở các lần trước. | 11/09/2025 | 11/09/2025 | [Lab 07](https://000007.awsstudygroup.com/vi/) |
+| 6   | - Tìm hiểu các gói hỗ trợ của AWS.<br> - Tìm hiểu cách tạo các gói hỗ trợ của AWS.<br> - Thay đổi và quản lý các gói hỗ trợ của AWS. | 12/09/2025 | 12/09/2025 | [Lab 07](https://000007.awsstudygroup.com/vi/) |
 
 ## Kết quả đạt được tuần 1:
-- Understood what AWS is and mastered the basic service groups:
-  - Compute
-  - Storage
-  - Networking
-  - Database
-  - …
-- Successfully created and configured an AWS Free Tier account.
-- Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-- Installed and configured AWS CLI on the computer, including:
-  - Access Key
-  - Secret Key
-  - Default Region
-  - …
-- Used AWS CLI to perform basic operations such as:
-  - Check account & configuration information
-  - Retrieve the list of regions
-  - View EC2 service
-  - Create and manage key pairs
-  - Check information about running services
-  - …
-- Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-- …
+- Hiểu được lịch sử và quá trình hình thành của AWS.
+- Hiểu được tổng quát về cơ sở hạ tầng của AWS.
+- Biết cách sử dụng công cụ quản lý dịch vụ cũng như cách tối ưu chi phí cho các dịch vụ của AWS.
+- Biết được cách tạo và gom nhóm người dùng trong tài khoản.
+- Biết được cách tạo và các gói đăng kí của AWS:
+  - On-demand
+  - Reserved Plans
+  - Saving Plans
+  - Spot Plans
+- Biết thêm thông tin về các gói hỗ trợ của AWS và cách tạo các gói hỗ trợ:
+  - Basic Support
+  - Developer Support
+  - Business Support
+  - Enterprise Support
+- Biết được cách thay đổi cũng như quản lý các gói hỗ trợ.
