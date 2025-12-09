@@ -51,7 +51,7 @@ MapVibe employs **AWS Bedrock (Titan embedding model, Claude LLM model)** to par
 ### Overview
 
 User Prompt + Context → **Bedrock Titan Embedding Model** → **Structured Query** → **RDS (PostgreSQL) Search** → **Rank & Cache** → **Web UI Display** → **User Feedback Loop**.  
-![Solution Architecture](/images/Architechture.png)
+![Solution Architecture](https://nhnphu5525.github.io/aws-workshop/images/Architechture.png)
 
 ### AWS Services Used
 
