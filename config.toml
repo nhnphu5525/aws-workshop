@@ -1,5 +1,3 @@
-baseURL = "https://nhnphu5525.github.io/aws-workshop/"
-
 defaultContentLanguage = "en"
 [languages]
   [languages.en]

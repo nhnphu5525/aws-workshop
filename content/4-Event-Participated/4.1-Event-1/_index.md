@@ -58,13 +58,13 @@ The event reinforced that successful GenAI adoption requires balancing innovatio
 
 ### Event Gallery
 
-![Vietnam Cloud Day Opening Session](/images/Event-Participated/Event-1/pic1.png)
+![Vietnam Cloud Day Opening Session](https://nhnphu5525.github.io/aws-workshop/images/Event-Participated/Event-1/pic1.png)
 *Opening session at Vietnam Cloud Day 2025*
 
-![Networking Session](/images/Event-Participated/Event-1/pic2.png)
+![Networking Session](https://nhnphu5525.github.io/aws-workshop/images/Event-Participated/Event-1/pic2.png)
 *Networking and knowledge sharing among attendees*
 
-![Technical Presentation](/images/Event-Participated/Event-1/pic3.png)
+![Technical Presentation](https://nhnphu5525.github.io/aws-workshop/images/Event-Participated/Event-1/pic3.png)
 *Technical deep dive on Amazon Bedrock*
 
 ---

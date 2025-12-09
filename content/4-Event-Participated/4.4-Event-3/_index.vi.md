@@ -87,13 +87,13 @@ Stack observability được bao gồm:
 
 ### Thư viện ảnh sự kiện
 
-![Khai mạc Workshop DevOps](/images/Event-Participated/Event-3/pic1.jpg)
+![Khai mạc Workshop DevOps](https://nhnphu5525.github.io/aws-workshop/images/Event-Participated/Event-3/pic1.jpg)
 *Phiên khai mạc AWS Cloud Mastery Series #2*
 
-![Demo CI/CD Pipeline](/images/Event-Participated/Event-3/pic2.jpg)
+![Demo CI/CD Pipeline](https://nhnphu5525.github.io/aws-workshop/images/Event-Participated/Event-3/pic2.jpg)
 *Trình diễn trực tiếp thiết lập CI/CD pipeline*
 
-![Workshop Container](/images/Event-Participated/Event-3/pic3.jpg)
+![Workshop Container](https://nhnphu5525.github.io/aws-workshop/images/Event-Participated/Event-3/pic3.jpg)
 *Phiên thực hành về container services*
 
 ---

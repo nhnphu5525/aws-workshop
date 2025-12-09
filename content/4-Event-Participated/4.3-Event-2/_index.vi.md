@@ -83,13 +83,13 @@ Workshop cung cấp insights thực tế để xây dựng ứng dụng AI:
 
 ### Thư viện ảnh sự kiện
 
-![Khai mạc AWS Cloud Mastery Series](/images/Event-Participated/Event-2/pic1.jpg)
+![Khai mạc AWS Cloud Mastery Series](https://nhnphu5525.github.io/aws-workshop/images/Event-Participated/Event-2/pic1.jpg)
 *Phiên khai mạc AWS Cloud Mastery Series #1*
 
-![Workshop kỹ thuật](/images/Event-Participated/Event-2/pic2.jpg)
+![Workshop kỹ thuật](https://nhnphu5525.github.io/aws-workshop/images/Event-Participated/Event-2/pic2.jpg)
 *Workshop thực hành về Amazon Bedrock*
 
-![Phiên Q&A](/images/Event-Participated/Event-2/pic3.jpg)
+![Phiên Q&A](https://nhnphu5525.github.io/aws-workshop/images/Event-Participated/Event-2/pic3.jpg)
 *Q&A tương tác với các diễn giả chuyên gia*
 
 ---

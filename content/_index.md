@@ -18,7 +18,7 @@ chapter : false
 **Internship Position:** FCJ Cloud Intern <br>
 **Internship Duration:** From 06/09/2025 to 15/12/2025 <br>
 
-![Avatar](/images/avatar.jpg)
+![Avatar](https://nhnphu5525.github.io/aws-workshop/images/avatar.jpg)
 
 ### Contents
 

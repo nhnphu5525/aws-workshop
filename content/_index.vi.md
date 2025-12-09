@@ -19,7 +19,7 @@ chapter: false
 **Vị trí thực tập:** FCJ Cloud Intern <br>
 **Thời gian thực tập:** Từ 06/09/2025 đến 15/12/2025 <br>
 
-![Avatar](/images/avatar.jpg)
+![Avatar](https://nhnphu5525.github.io/aws-workshop/images/avatar.jpg)
 
 ### Nội dung
 
