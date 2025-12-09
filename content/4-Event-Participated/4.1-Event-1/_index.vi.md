@@ -58,13 +58,13 @@ Sự kiện củng cố rằng việc áp dụng GenAI thành công đòi hỏi 
 
 ### Thư viện ảnh sự kiện
 
-![Phiên khai mạc Vietnam Cloud Day](/images/Event-Participated/Event-1/pic1.png)
+![Phiên khai mạc Vietnam Cloud Day](https://nhnphu5525.github.io/aws-workshop/images/Event-Participated/Event-1/pic1.png)
 *Phiên khai mạc tại Vietnam Cloud Day 2025*
 
-![Phiên networking](/images/Event-Participated/Event-1/pic2.png)
+![Phiên networking](https://nhnphu5525.github.io/aws-workshop/images/Event-Participated/Event-1/pic2.png)
 *Networking và chia sẻ kiến thức giữa các người tham dự*
 
-![Bài trình bày kỹ thuật](/images/Event-Participated/Event-1/pic3.png)
+![Bài trình bày kỹ thuật](https://nhnphu5525.github.io/aws-workshop/images/Event-Participated/Event-1/pic3.png)
 *Tìm hiểu sâu về Amazon Bedrock*
 
 ---

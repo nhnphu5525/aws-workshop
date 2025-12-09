@@ -83,13 +83,13 @@ The workshop provided practical insights for building AI applications:
 
 ### Event Gallery
 
-![AWS Cloud Mastery Series Opening](/images/Event-Participated/Event-2/pic1.jpg)
+![AWS Cloud Mastery Series Opening](https://nhnphu5525.github.io/aws-workshop/images/Event-Participated/Event-2/pic1.jpg)
 *Opening session of AWS Cloud Mastery Series #1*
 
-![Technical Workshop](/images/Event-Participated/Event-2/pic2.jpg)
+![Technical Workshop](https://nhnphu5525.github.io/aws-workshop/images/Event-Participated/Event-2/pic2.jpg)
 *Hands-on workshop on Amazon Bedrock*
 
-![Q&A Session](/images/Event-Participated/Event-2/pic3.jpg)
+![Q&A Session](https://nhnphu5525.github.io/aws-workshop/images/Event-Participated/Event-2/pic3.jpg)
 *Interactive Q&A with expert speakers*
 
 ---

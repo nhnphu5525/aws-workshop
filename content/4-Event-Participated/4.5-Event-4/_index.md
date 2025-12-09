@@ -96,13 +96,13 @@ Response framework:
 
 ### Event Gallery
 
-![Security Workshop Opening](/images/Event-Participated/Event-4/pic1.jpg)
+![Security Workshop Opening](https://nhnphu5525.github.io/aws-workshop/images/Event-Participated/Event-4/pic1.jpg)
 *Opening session on AWS Well-Architected Security Pillar*
 
-![IAM Best Practices](/images/Event-Participated/Event-4/pic2.jpg)
+![IAM Best Practices](https://nhnphu5525.github.io/aws-workshop/images/Event-Participated/Event-4/pic2.jpg)
 *Deep dive into Identity and Access Management*
 
-![Group Discussion](/images/Event-Participated/Event-4/pic3.jpg)
+![Group Discussion](https://nhnphu5525.github.io/aws-workshop/images/Event-Participated/Event-4/pic3.jpg)
 *Interactive discussion on security best practices*
 
 ---

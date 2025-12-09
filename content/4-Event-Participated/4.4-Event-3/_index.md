@@ -87,13 +87,13 @@ Observability stack covered:
 
 ### Event Gallery
 
-![DevOps Workshop Opening](/images/Event-Participated/Event-3/pic1.jpg)
+![DevOps Workshop Opening](https://nhnphu5525.github.io/aws-workshop/images/Event-Participated/Event-3/pic1.jpg)
 *Opening session of AWS Cloud Mastery Series #2*
 
-![CI/CD Pipeline Demo](/images/Event-Participated/Event-3/pic2.jpg)
+![CI/CD Pipeline Demo](https://nhnphu5525.github.io/aws-workshop/images/Event-Participated/Event-3/pic2.jpg)
 *Live demonstration of CI/CD pipeline setup*
 
-![Container Workshop](/images/Event-Participated/Event-3/pic3.jpg)
+![Container Workshop](https://nhnphu5525.github.io/aws-workshop/images/Event-Participated/Event-3/pic3.jpg)
 *Hands-on session on container services*
 
 ---

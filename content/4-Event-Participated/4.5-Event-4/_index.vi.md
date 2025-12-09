@@ -96,13 +96,13 @@ Framework phản hồi:
 
 ### Thư viện ảnh sự kiện
 
-![Khai mạc Workshop Security](/images/Event-Participated/Event-4/pic1.jpg)
+![Khai mạc Workshop Security](https://nhnphu5525.github.io/aws-workshop/images/Event-Participated/Event-4/pic1.jpg)
 *Phiên khai mạc về AWS Well-Architected Security Pillar*
 
-![Thực hành IAM tốt nhất](/images/Event-Participated/Event-4/pic2.jpg)
+![Thực hành IAM tốt nhất](https://nhnphu5525.github.io/aws-workshop/images/Event-Participated/Event-4/pic2.jpg)
 *Tìm hiểu sâu về Identity and Access Management*
 
-![Thảo luận nhóm](/images/Event-Participated/Event-4/pic3.jpg)
+![Thảo luận nhóm](https://nhnphu5525.github.io/aws-workshop/images/Event-Participated/Event-4/pic3.jpg)
 *Thảo luận tương tác về các thực hành bảo mật tốt nhất*
 
 ---

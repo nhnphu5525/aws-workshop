@@ -28,7 +28,7 @@ Chúng tôi khuyến nghị bạn nên schedule các resync windows trong giai �
 
 Để configure data resync, bạn cần bật nó khi **creating** hoặc **modifying** a task. Trên AWS DMS console, trong phần **Data resync**, chọn **Schedule resync**, như minh họa trong ảnh chụp màn hình sau.
 
-![Data Resync Configuration](/images/translated-blogs/blog2/pic1.png)
+![Data Resync Configuration](https://nhnphu5525.github.io/aws-workshop/images/translated-blogs/blog2/pic1.png)
 
 Lịch resync sử dụng Cron expression để lên lịch các lần chạy data resync:
 
@@ -59,7 +59,7 @@ Ví dụ, các thiết lập sau lên lịch data resync chạy vào thứ Bảy
 
 Với data resync, AWS DMS tạo một bảng **awsdms_validation_failures_v2** trên PostgreSQL target endpoint với cấu trúc được hiển thị trong ảnh chụp màn hình sau.
 
-![Validation Failures Table](/images/translated-blogs/blog2/pic2.png)
+![Validation Failures Table](https://nhnphu5525.github.io/aws-workshop/images/translated-blogs/blog2/pic2.png)
 
 Bảng này được tham chiếu để theo dõi và xử lý các mismatches trên các bảng target trong quá trình validation bằng cách tra cứu dữ liệu trên source sử dụng primary key. Khi upgrading hoặc di chuyển một task lên AWS DMS phiên bản 3.6.1 trở lên, các validation failures xảy ra trước khi nâng cấp sẽ không được resynced tự động. Để xử lý các upgrade validation failures, bạn cần initiate một table reload hoặc revalidation. Các validation failures mới xảy ra sau khi nâng cấp sẽ được theo dõi và resynced thông qua bảng awsdms_validation_failures_v2.
 
@@ -217,7 +217,7 @@ Một trường hợp sử dụng khác có thể xảy ra trong quá trình mig
 
 Hãy xem xét một kịch bản mà bạn migrate năm bảng thuộc ADMIN schema từ Oracle sang PostgreSQL. Trong ảnh chụp màn hình dưới đây, ba trong số năm bảng đã kết thúc ở trạng thái lỗi (error).
 
-![Tables in Error State](/images/translated-blogs/blog2/pic3.png)
+![Tables in Error State](https://nhnphu5525.github.io/aws-workshop/images/translated-blogs/blog2/pic3.png)
 
 Bạn có thể nhận thấy từ CloudWatch logs rằng các bảng này đã kết thúc ở trạng thái lỗi (error) tại các timestamp khác nhau. Vì các bảng thất bại ở các timestamp khác nhau, bạn cần sử dụng earliest timestamp khi bảng gặp lỗi làm CDC start time và tạo một CDC only task với ba bảng này. Trong trường hợp này, earliest timestamp là 2025-06-05T03:40:13.
 
@@ -229,11 +229,11 @@ Bạn có thể nhận thấy từ CloudWatch logs rằng các bảng này đã 
 2025-06-05T03:52:32 [TASK_MANAGER ]W: Table 'ADMIN'.'DMST5' was errored/suspended (subtask 0 thread 1). 
 ```
 
-![CDC Start Time](/images/translated-blogs/blog2/pic4.png)
+![CDC Start Time](https://nhnphu5525.github.io/aws-workshop/images/translated-blogs/blog2/pic4.png)
 
 Trong quá trình data resync, bạn có thể xác nhận rằng các conflicts được phát hiện đã được xử lý, như được hiển thị trong ảnh chụp màn hình sau.
 
-![Resync Results](/images/translated-blogs/blog2/pic5.png)
+![Resync Results](https://nhnphu5525.github.io/aws-workshop/images/translated-blogs/blog2/pic5.png)
 
 ```sql
 dmsdb=> select * from public.awsdms_validation_failures_v2;  

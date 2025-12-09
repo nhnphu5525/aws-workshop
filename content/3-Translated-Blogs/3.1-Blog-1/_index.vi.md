@@ -30,7 +30,7 @@ Bạn có thể thiết lập CloudFront như cổng truy cập (front door) cho
 
 Hình minh họa sau đây cung cấp tổng quan về giải pháp này.
 
-![Solution Overview](/images/translated-blogs/blog1/pic1.png)
+![Solution Overview](https://nhnphu5525.github.io/aws-workshop/images/translated-blogs/blog1/pic1.png)
 
 Sơ đồ này mô tả ba dịch vụ đang chạy trong một tài khoản AWS. Phân phối CloudFront đóng vai trò là điểm truy cập chính của ứng dụng. Phân phối này kết nối với một Application Load Balancer (ALB) nội bộ bằng cách sử dụng VPC Origins. VPC endpoint dạng interface có tên execute-api được đặt làm đích (target) cho ALB nội bộ, nhằm định tuyến các yêu cầu đến Private **Amazon API Gateway**.
 
@@ -55,7 +55,7 @@ Trong hướng dẫn triển khai này, bạn sẽ cần các tài nguyên sau:
 
 Mẫu **AWS Serverless Application Model (AWS SAM)** từ kho GitHub mẫu sẽ tạo ra một kiến trúc mạng riêng tư và an toàn, cho phép kiểm soát quyền truy cập vào API Gateway thông qua CloudFront. Mẫu này khởi tạo (provision) các thành phần gồm: Private API Gateway với VPC endpoint, ALB nội bộ, và CloudFront distribution. Nó thiết lập các kênh liên lạc an toàn bằng cách triển khai các thành phần mạng riêng tư, cấu hình chứng chỉ SSL, và thiết lập định tuyến DNS của Route53. Bên cạnh đó, mẫu còn sử dụng các tài nguyên **AWS Lambda** tùy chỉnh để quản lý linh hoạt các giao diện mạng (network interface) và cấu hình nhóm bảo mật (security group) một cách tự động, từ đó cung cấp một hạ tầng mạnh mẽ và linh hoạt cho việc truy cập Private API, như được minh họa trong hình dưới đây.
 
-![Architecture](/images/translated-blogs/blog1/pic2.png)
+![Architecture](https://nhnphu5525.github.io/aws-workshop/images/translated-blogs/blog1/pic2.png)
 
 #### **Bước 1: Tạo CloudFront distribution và VPC Origins**
 

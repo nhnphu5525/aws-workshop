@@ -24,11 +24,11 @@ Phát triển serverless với Lambda bao gồm cả môi trường cloud và lo
 
 Các workflow phát triển cục bộ có thể được xem như hai vòng lặp riêng biệt nhưng có mối liên kết chặt chẽ: vòng lặp bên trong bao gồm việc viết, kiểm thử và debug mã cục bộ; và vòng lặp bên ngoài mở rộng đến quá trình triển khai lên cloud, integration testing, release pipeline, và monitoring, như được minh họa trong hình dưới đây. Đối với các ứng dụng serverless, các developer mong muốn nhận được phản hồi ngay lập tức trong vòng lặp bên trong, khi họ lặp lại quá trình chỉnh sửa mã function và kiểm thử khả năng tích hợp với các AWS service. AWS đã không ngừng cải thiện trải nghiệm phát triển cục bộ cho các developer xây dựng trên Lambda, tập trung vào việc tăng tốc vòng lặp bên trong — nơi các developer dành phần lớn thời gian làm việc.
 
-![Inner and Outer Loop](/images/translated-blogs/blog3/pic1.png)
+![Inner and Outer Loop](https://nhnphu5525.github.io/aws-workshop/images/translated-blogs/blog3/pic1.png)
 
 Theo **2024 Stack Overflow Developer Survey**, **Visual Studio Code** (VS Code) là IDE phổ biến nhất trong giới developer. **Trải nghiệm IDE cục bộ** được cải tiến giúp các developer có thể code, test, debug, và deploy các ứng dụng serverless dựa trên Lambda một cách hiệu quả hơn ngay trong VS Code. Tính năng này giới thiệu Application Builder interface, giúp hợp lý hóa toàn bộ workflow phát triển — từ khâu thiết lập đến triển khai — với các tính năng như guided walkthrough cho việc cài đặt môi trường, các sample application được cấu hình sẵn, build setting management, và khả năng local debugging được cải thiện. Nhờ đó, các developer không còn cần phải chuyển đổi qua lại giữa nhiều giao diện khác nhau. Trải nghiệm này cũng được tích hợp với **AWS Infrastructure Composer**, cho phép xây dựng ứng dụng trực quan trực tiếp trong VS Code, đồng thời cung cấp các quick-action button cho các tác vụ phổ biến như build, deploy, và invoke function — cả ở môi trường cục bộ lẫn trên cloud.
 
-![Guided Walkthrough in VS Code IDE](/images/translated-blogs/blog3/pic2.png)
+![Guided Walkthrough in VS Code IDE](https://nhnphu5525.github.io/aws-workshop/images/translated-blogs/blog3/pic2.png)
 
 Với **thư viện pattern sẵn sàng sử dụng phong phú của Serverless Land có thể truy cập trực tiếp trong VS Code**, bạn giờ đây có thể duyệt, tìm kiếm và áp dụng một bộ sưu tập các serverless pattern được chọn lọc và xây dựng sẵn mà không cần rời khỏi IDE. Sự tích hợp này giúp việc áp dụng các architecture đã được kiểm chứng và AWS best practice trở nên dễ dàng hơn trong quá trình xây dựng ứng dụng serverless. Tính năng hỗ trợ **Amazon CloudWatch Logs Live Tail cho Lambda function trong VS Code** mang đến khả năng log streaming và analytics theo thời gian thực trực tiếp trong IDE, cho phép bạn theo dõi và xử lý sự cố cho các Lambda function mà không cần chuyển đổi ngữ cảnh làm việc. Dù bạn đang testing một tính năng mới hay debugging một vấn đề, giờ đây bạn có thể thấy ngay tác động tức thì của các thay đổi trong mã nguồn mà không cần rời khỏi IDE.
 
@@ -44,9 +44,9 @@ Trước đây, việc thiết lập như vậy đòi hỏi phải cấu hình t
 
 Tính năng **Lambda console to IDE** mới cho phép chuyển đổi liền mạch từ chu trình code/test trên cloud sang môi trường cục bộ, cho phép bạn tải xuống function code và configuration vào VS Code IDE cục bộ chỉ với một cú nhấp chuột. Từ đó, bạn có thể dễ dàng thêm dependency và commit code vào source control. Hơn nữa, bạn có thể sync ngược trở lại cloud để deploy, hoặc xuất toàn bộ AWS SAM template với tính năng "Convert to SAM", và tiếp tục quản lý function của mình như thể bạn đã bắt đầu phát triển cục bộ từ đầu. Console to IDE cũng hướng dẫn bạn trong quá trình thiết lập IDE trên thiết bị cục bộ (nếu bạn chưa có), cùng với các cấu hình cần thiết khác. Các hình minh họa dưới đây cho thấy một function được mở trong Lambda console và sau đó trong VS Code IDE cục bộ.
 
-![Lambda Function in Console](/images/translated-blogs/blog3/pic3.png)
+![Lambda Function in Console](https://nhnphu5525.github.io/aws-workshop/images/translated-blogs/blog3/pic3.png)
 
-![Lambda Function in Local IDE](/images/translated-blogs/blog3/pic4.png)
+![Lambda Function in Local IDE](https://nhnphu5525.github.io/aws-workshop/images/translated-blogs/blog3/pic4.png)
 
 Bằng cách giúp việc chuyển đổi giữa vòng lặp phát triển bên trong (inner loop) trên cloud và môi trường phát triển cục bộ trở nên dễ dàng, tính năng console to IDE cho phép bạn nhanh chóng mở rộng một ý tưởng từ proof-of-concept thành một serverless application hoàn chỉnh. Hãy truy cập **Lambda documentation** để tìm hiểu thêm chi tiết.
 
@@ -60,7 +60,7 @@ Các developer xây dựng serverless applications với Lambda thường cần 
 
 Hình minh họa sau cho thấy việc đặt một breakpoint trong VS Code IDE trong một phiên remote debugging sẽ tạm dừng việc thực thi, cho phép bạn kiểm tra dữ liệu mà function trên cloud được gọi với (cùng các biến của function). Bạn có thể tiếp tục bước theo từng dòng (step forward line-by-line) từ điểm này để theo dõi tiến trình thực thi của function.
 
-![Remote Debugging in VS Code](/images/translated-blogs/blog3/pic5.png)
+![Remote Debugging in VS Code](https://nhnphu5525.github.io/aws-workshop/images/translated-blogs/blog3/pic5.png)
 
 Tất cả những điều này có nghĩa là bạn không còn cần phải thiết lập các local emulator để mô phỏng hành vi của cloud, quản lý các test framework phức tạp, hay liên tục thu thập các log tốn kém ở mức TRACE-level chỉ để hiểu cách mã của bạn được thực thi. Debugger của bạn có thể hiển thị chính xác các invocation parameter (chẳng hạn như event và **context**) khi chúng đến function handler. Bạn có thể step through để quan sát cách function hoạt động với các đầu vào khác nhau và kiểm tra giá trị của các biến trong suốt quá trình thực thi. Vì mã của bạn đang chạy trên cloud, bạn thậm chí có thể xem cách IAM execution role của function ảnh hưởng đến hành vi của nó. Trong khi step through, bạn có thể thấy ngay khi một AWS SDK service call thất bại do thiếu quyền truy cập (permissions).
 
