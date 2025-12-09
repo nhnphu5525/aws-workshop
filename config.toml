@@ -1,3 +1,7 @@
+baseURL = "/"
+relativeURLs = true
+canonifyURLs = false
+
 defaultContentLanguage = "en"
 [languages]
   [languages.en]
